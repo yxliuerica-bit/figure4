@@ -1,0 +1,73 @@
+{
+  "source_directory": "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF",
+  "source_files": [
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202401_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202402_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202403_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202404_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202405_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202406_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202407_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202408_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202409_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202410_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202411_kg.csv",
+    "E:\\monthly_points_activity_power\\transport_emission_outputs\\02a_emission_fact\\version_EF\\emission_by_plant_direction_quality_202412_kg.csv"
+  ],
+  "baseline_year": 2024,
+  "demand_multiplier": 1.0,
+  "emission_scaling": "already x3 in version_EF; no further emission scaling",
+  "activity_scaling": "observed VKT retained in the input; cost demo expansion is a separate assumption",
+  "plant_count": 1502,
+  "original_files_modified": false,
+  "source_file_signatures": {
+    "emission_by_plant_direction_quality_202401_kg.csv": {
+      "bytes": 4548032,
+      "mtime_ns": 1794813297815989600
+    },
+    "emission_by_plant_direction_quality_202402_kg.csv": {
+      "bytes": 4224450,
+      "mtime_ns": 1794813298191296800
+    },
+    "emission_by_plant_direction_quality_202403_kg.csv": {
+      "bytes": 4500231,
+      "mtime_ns": 1794813298519190000
+    },
+    "emission_by_plant_direction_quality_202404_kg.csv": {
+      "bytes": 5382634,
+      "mtime_ns": 1794813299008764100
+    },
+    "emission_by_plant_direction_quality_202405_kg.csv": {
+      "bytes": 4994303,
+      "mtime_ns": 1794813299375336000
+    },
+    "emission_by_plant_direction_quality_202406_kg.csv": {
+      "bytes": 5010494,
+      "mtime_ns": 1794813299885804700
+    },
+    "emission_by_plant_direction_quality_202407_kg.csv": {
+      "bytes": 5084303,
+      "mtime_ns": 1794813300261007800
+    },
+    "emission_by_plant_direction_quality_202408_kg.csv": {
+      "bytes": 5018376,
+      "mtime_ns": 1794813300649216200
+    },
+    "emission_by_plant_direction_quality_202409_kg.csv": {
+      "bytes": 5058648,
+      "mtime_ns": 1794813301019271200
+    },
+    "emission_by_plant_direction_quality_202410_kg.csv": {
+      "bytes": 5053701,
+      "mtime_ns": 1794813301398168900
+    },
+    "emission_by_plant_direction_quality_202411_kg.csv": {
+      "bytes": 5126063,
+      "mtime_ns": 1794813302040773200
+    },
+    "emission_by_plant_direction_quality_202412_kg.csv": {
+      "bytes": 5078614,
+      "mtime_ns": 1794813302453817600
+    }
+  }
+}
