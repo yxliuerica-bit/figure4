@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "baseline_year": 2024,
+  "entity": "cement enterprise",
+  "enterprise_count": 921,
+  "baseline_observed_vkt_km": 612060452.5874624,
+  "baseline_calibrated_freight_tailpipe_CO2_t": 424013.3789770014,
+  "ranking": "annual observed freight vehicle-km descending; enterprise_id ascending tie break",
+  "surface_definition": "R(K,q)=q*sum(E_i,i<=K)/sum(E_i), q in [0,1]",
+  "within_group_assumption": "each selected enterprise electrifies the same representative share q of its freight vehicle-km; freight tailpipe CO2 reduction is proportional to q",
+  "targets": "minimum integer K in the fixed VKT ranking; this is not a globally optimal enterprise subset",
+  "coverage_factor_handling": "The input factor is retained as metadata; emissions are not scaled again.",
+  "source_signature": {
+    "path": "C:\\paper_transport\\Main figure script\\Figure4\\figure4-enterprise\\figure4-cement_enterprise_analysis\\cement_enterprise_analysis\\cement_enterprise_inputs_2024.csv",
+    "bytes": 46869,
+    "mtime_ns": 1795578426644473500,
+    "sha256": "aac53020b1b19cf8769aa50dab7808879d7b5b2d6d0874be84199cc3031b5598"
+  },
+  "checks": {
+    "ranking_and_unique_enterprise_ids": true,
+    "positive_monotone_prefix_CO2": true,
+    "full_scale_paths_converge": true,
+    "input_file_unchanged": true
+  },
+  "limitations": [
+    "This analyzes freight-vehicle tailpipe emissions, not cement production process emissions.",
+    "Avoided CO2 excludes electricity-generation emissions.",
+    "All freight activity is assumed technically electrifiable; vehicle, charging, grid, cost and adoption constraints are omitted.",
+    "Enterprise counts measure implementation coverage, not equal investment or administrative cost.",
+    "Freight activity is fixed at 2024; no annual rollout process is modeled."
+  ]
+}
