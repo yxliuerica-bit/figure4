@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "baseline_year": 2024,
+  "monthly_files": [
+    ".enterprise_standard_202401.csv",
+    ".enterprise_standard_202402.csv",
+    ".enterprise_standard_202403.csv",
+    ".enterprise_standard_202404.csv",
+    ".enterprise_standard_202405.csv",
+    ".enterprise_standard_202406.csv",
+    ".enterprise_standard_202407.csv",
+    ".enterprise_standard_202408.csv",
+    ".enterprise_standard_202409.csv",
+    ".enterprise_standard_202410.csv",
+    ".enterprise_standard_202411.csv",
+    ".enterprise_standard_202412.csv"
+  ],
+  "enterprise_count": 129,
+  "monthly_source_row_count": 6184,
+  "aggregation": "Sum CO2_kg and distance_km by enterprise_id across all 12 months, emission standards and categories.",
+  "supplement_columns_handling": "CO2_speed_added_kg and distance_added_km are audit subsets already included in CO2_kg and distance_km; they are not added a second time.",
+  "reconciled_totals": {
+    "CO2_kg": 487163168.29139555,
+    "distance_km": 698357357.9790156,
+    "CO2_speed_added_kg": 4807802.243916268,
+    "distance_added_km": 6908357.242527669
+  },
+  "source_data_quality": {
+    "input_points": 929245004,
+    "excluded_points": 1574522,
+    "excluded_share_pct": 0.16944099706991805,
+    "excluded_point_emissions_assumed_zero": false
+  },
+  "checks": {
+    "all_12_months_present": true,
+    "no_duplicate_monthly_enterprise_standard_category_keys": true,
+    "monthly_standard_totals_match_annual_reference": true,
+    "monthly_totals_match_audit_summary": true,
+    "original_source_files_unchanged": true
+  },
+  "source_signatures": [
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202401.csv",
+      "bytes": 207864,
+      "mtime_ns": 1793674031546079200,
+      "sha256": "0078f372ae5176752535b50923531490c0ee5d9b4cdc02e9cb812098d850c0b7"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202402.csv",
+      "bytes": 208580,
+      "mtime_ns": 1793674043338727800,
+      "sha256": "db23f60fe882c70437d78c1a87463008e04da23486ba550da2246a10a01d5d8f"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202403.csv",
+      "bytes": 208083,
+      "mtime_ns": 1793674060470272100,
+      "sha256": "6b815a1ced56700a15565c127e961560215f83a99df025d0ac0af4c6f489f23d"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202404.csv",
+      "bytes": 209009,
+      "mtime_ns": 1793674080845327200,
+      "sha256": "01b42f11df545d511d83ad4273c1ead5c9fbd1ed29ffc38ff93abc574c6d4e00"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202405.csv",
+      "bytes": 208394,
+      "mtime_ns": 1793674096936052600,
+      "sha256": "b685b94a7517d5170199083234a328ad52c99b5fe8da786ef47bac3f140c12d3"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202406.csv",
+      "bytes": 209457,
+      "mtime_ns": 1793674118655248200,
+      "sha256": "e90054ffafa5058dd0599a7f0666bb6a46164fbcd83f4580daf29313432dd169"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202407.csv",
+      "bytes": 209831,
+      "mtime_ns": 1793674145328772300,
+      "sha256": "a7375fbadda374d0dd766a8f4d5483e73e5025e9cf2ff88c034fb661a79a617d"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202408.csv",
+      "bytes": 211391,
+      "mtime_ns": 1793674173140215900,
+      "sha256": "7cb24f9844cfea66fff4b077de077c75b3466eda75464f13986c600101e4bd1b"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202409.csv",
+      "bytes": 209334,
+      "mtime_ns": 1793674203830951000,
+      "sha256": "4743b8d1ee9d2e59a0c6b351a444678a337050d25ac3b965fecc290961587187"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202410.csv",
+      "bytes": 209166,
+      "mtime_ns": 1793674234980662600,
+      "sha256": "99f5f3353a426162dc10bc39da9dd66983112853bfb4070ab74eb178f8fe1a84"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202411.csv",
+      "bytes": 127782,
+      "mtime_ns": 1793674269899815100,
+      "sha256": "60f5fa976b8a29832b3fc3688ac9435ccf3967b8fc801610ff2915223a176a14"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\.enterprise_standard_202412.csv",
+      "bytes": 209178,
+      "mtime_ns": 1793674302669849200,
+      "sha256": "fc61f7298eaf4507c7a5984e6cc1b5752a16fd1c723a010b6d04643d10bac79a"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\annual_by_standard_kg.csv",
+      "bytes": 2150,
+      "mtime_ns": 1793674425056101200,
+      "sha256": "82e80b3333b266cd6c546114c6451159b4af356b5e4448e70067197816f1ca70"
+    },
+    {
+      "path": "E:\\monthly_points_activity_steel\\emission\\02a_emission_fact\\summary_2024\\audit_summary.json",
+      "bytes": 10993,
+      "mtime_ns": 1793674305062767200,
+      "sha256": "0375e71e592ffaff1d0c2055b205101d9a890917eb353dedeb8252e9765ac942"
+    }
+  ]
+}
